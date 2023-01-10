@@ -20,7 +20,7 @@ const Slider = ({slides}) => {
     }
   return (
     <div id='gallery'>
-        <h1>Gallery</h1>
+        <h1 className='text-bold text-4xl flex items-center justify-center py-8'>Gallery</h1>
         <div className='relative flex justify-center p-4'>
             {
                 SliderData.map((slide, index) => {

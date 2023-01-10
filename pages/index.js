@@ -4,6 +4,8 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
 import { SliderData } from '../components/SliderData'
+import Instagram from '../components/Instagram'
+import Work from './Work'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,6 +22,8 @@ export default function Home() {
       <Hero heading='Capture Photography' message='I capture moments in nature and
       keep them alive.'/>
       <Slider slides={SliderData}/>
+      <Instagram/>
+      <Work/>
     </>
   )
 }
